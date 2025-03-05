@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DTO Geek Night - A tech meetup event">
+    <meta name="keywords" content="DTO, Geek Night, Technology, Meetup, Tech Event">
+    <meta name="author" content="DTO Geek Night">
+    <meta name="theme-color" content="#ddaa22">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dtogeeknight.com/">
+    <meta property="og:title" content="DTO Geek Night">
+    <meta property="og:description" content="Coming Soon! Join us for an evening of tech talks and networking">
+    <meta property="og:image" content="https://dtogeeknight.com/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://dtogeeknight.com/">
+    <meta property="twitter:title" content="DTO Geek Night">
+    <meta property="twitter:description" content="Coming Soon! Join us for an evening of tech talks and networking">
+    <meta property="twitter:image" content="https://dtogeeknight.com/twitter-image.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <title>DTO Geek Night</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <style>
+        :host {
+            display: block;
+            height: 100vh;
+            width: 100vw;
+        }
+        /* CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #fef9f3;
+            --secondary-color: #ddaa22;
+            --tertiary-color: #624a39;
+            --light-color: var(--primary-color);
+            --dark-color: #222;
+        }
+
+        .site {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .page {
+            height: 100%;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1.5fr 1fr;
+            grid-template-rows: 1fr;
+        }
+
+        .site-title {
+            font-family: 'Anton', sans-serif;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.02em;
+            color: var(--dark-color);
+            font-size: 5rem;
+            padding: 5px 5px 5px 10px;
+            display: flex;
+            align-items: center;
+            padding-top: 14rem;
+        }
+        
+        @media (max-width: 768px) {
+            .site-title {
+                font-size: 4rem;
+            }
+        }
+        @media (max-width: 480px) {
+            .site-title {
+                font-size: 3rem;
+            }
+        }
+
+        #dto {
+            color: var(--dark-color);
+            background-color: var(--secondary-color);
+            justify-content: flex-end;
+        }
+        
+        #geek-night {
+            background-color: var(--dark-color);
+            color: var(--primary-color);
+            justify-content: flex-start;
+        }
+    </style>
+</head>
+<body class="site">
+    <main aria-label="DTO Geek Night" class="page">
+        <div id="dto" class="site-title">DTO</div>
+        <div id="geek-night" class="site-title">GeekNight</div>
+    </main>
+</body>
+</html>
