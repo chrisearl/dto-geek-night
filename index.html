@@ -38,79 +38,31 @@
             height: 100vh;
             width: 100vw;
         }
-        /* CSS Reset */
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
-        :root {
-            --primary-color: #fef9f3;
-            --secondary-color: #ddaa22;
-            --tertiary-color: #624a39;
-            --light-color: var(--primary-color);
-            --dark-color: #222;
-        }
-
         .site {
             height: 100vh;
             width: 100vw;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
         }
 
         .page {
-            height: 100%;
-            width: 100%;
-            display: grid;
-            grid-template-columns: 1.5fr 1fr;
-            grid-template-rows: 1fr;
-        }
-
-        .site-title {
-            font-family: 'Anton', sans-serif;
-            font-weight: 900;
-            text-transform: uppercase;
-            letter-spacing: 0.02em;
-            color: var(--dark-color);
-            font-size: 5rem;
-            padding: 5px 5px 5px 10px;
-            display: flex;
             align-items: center;
-            padding-top: 14rem;
-        }
-        
-        @media (max-width: 768px) {
-            .site-title {
-                font-size: 4rem;
-            }
-        }
-        @media (max-width: 480px) {
-            .site-title {
-                font-size: 3rem;
-            }
-        }
-
-        #dto {
-            color: var(--dark-color);
-            background-color: var(--secondary-color);
-            justify-content: flex-end;
-        }
-        
-        #geek-night {
-            background-color: var(--dark-color);
-            color: var(--primary-color);
-            justify-content: flex-start;
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+            justify-content: center;
+            width: 100%;
         }
     </style>
 </head>
 <body class="site">
     <main aria-label="DTO Geek Night" class="page">
-        <div id="dto" class="site-title">DTO</div>
-        <div id="geek-night" class="site-title">GeekNight</div>
+        <img src="dto-gn.png" alt="DTOGN - DTO Geek Night">
     </main>
 </body>
 </html>
