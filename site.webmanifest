@@ -1,0 +1,27 @@
+{
+  "name": "DTO Geek Night",
+  "short_name": "DTOGN",
+  "description": "DTO Geek Night is a monthly meetup for tech and creative professionals in Orlando, FL.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffc704",
+  "theme_color": "#ffc704",
+  "icons": [
+    {
+      "src": "/assets/icons/dto-gn.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/icons/dto-gn.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "orientation": "portrait",
+  "lang": "en-US",
+  "dir": "ltr",
+  "scope": "/"
+}
